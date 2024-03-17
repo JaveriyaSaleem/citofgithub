@@ -11,10 +11,13 @@ body{
     --color-bggraytype: #0D1117;
     --color-gray: #6E7681;
     --font-work: Work Sans;
+    --color-bgblue: #1a1e22;
 }
+/* background gray  */
 .bgray{
  background-color: var(--color-bggraytype) !important;
 }
+/* color gray  */
 .cgray{
     color: var(--color-gray);
 }
@@ -22,7 +25,17 @@ body{
     font-size: 73px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow',  ;
 
-}
+} 
+/* MONO sans  */
 .worksans{
     font-family: var(--font-work);
 }
+/* monospace  */
+.monoserif{
+    font-family: monospace;
+}
+/* blue background  */
+.bluebg{
+    background-color: var(--color-bgblue);
+}
+
