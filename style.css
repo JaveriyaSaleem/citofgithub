@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family:Work Sans ;
+    src: url(fonts/Mona-Sans.ttf);
+}
+:root{
+    --color-bggraytype: #0D1117;
+    --color-gray: #6E7681;
+    --font-work: Work Sans;
+}
+.bgray{
+ background-color: var(--color-bggraytype) !important;
+}
+.cgray{
+    color: var(--color-gray);
+}
+.hone{
+    font-size: 73px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',  ;
+
+}
+.worksans{
+    font-family: var(--font-work);
+}
