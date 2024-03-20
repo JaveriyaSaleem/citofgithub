@@ -4,13 +4,13 @@ body{
 
 }
 @font-face {
-    font-family:Work Sans ;
+    font-family:Work Sans;
     src: url(fonts/Mona-Sans.ttf);
 }
 :root{
     --color-bggraytype: #0D1117;
     --color-gray: #6E7681;
-    --font-work: Work Sans;
+    --font-work:Work Sans;
     --color-bgblue: #1a1e22;
 }
 /* background gray  */
@@ -32,10 +32,13 @@ body{
 }
 /* monospace  */
 .monoserif{
-    font-family: monospace;
+    font-family: monospace !important;
 }
 /* blue background  */
 .bluebg{
     background-color: var(--color-bgblue);
 }
 
+.fontforteen{
+    font-size: 14px;
+}
